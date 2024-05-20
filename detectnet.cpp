@@ -86,7 +86,7 @@ int main(int argc, char **argv)
 	}
 
 	// bind the socket to a local port
-	if (!socket->Bind("192.168.31.189", 8899))
+	if (!socket->Bind("127.0.0.1", 8899))
 	{
 		printf("failed to bind socket\n");
 		return 0;
